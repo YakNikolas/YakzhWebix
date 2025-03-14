@@ -3,6 +3,7 @@ export function getForm() {
       view: "form",
       id: "myForm",
       gravity: 1,
+      minWidth: 300,
       elements: [
           {view: "template", template: "Edit Films", type: "section"}, 
           { view: "text", name: "title", label: "Title" },
@@ -39,21 +40,3 @@ export function getForm() {
       ]
   };
 }
-
-
-webix.html.addStyle(`
-  .add_button .webix_button  {
-  background-color:rgb(28,161,193);
-  color: #ffffff;
-  border: none;
-}
-  .add_button .webix_button:hover {
-  background-color:rgb(23, 132, 158);
-}
-  .add_button .webix_button:active {
-  background-color:rgb(2, 88, 110);;
-}
-  .add_button .webix_button:focus {
-  background-color:rgb(0, 79, 99);;
-  outline: none;
-}`);

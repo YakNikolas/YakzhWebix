@@ -14,7 +14,6 @@ webix.ready(function () {
             getHeader(),
             { 
                 view: "layout",
-                maxHeight: 670, 
                 id: "main_layout", 
                 cols: [
                     getList(),

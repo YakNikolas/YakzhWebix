@@ -6,7 +6,6 @@ export function getDashboard(data) {
       autoConfig: true,
       data: data,
       gravity: 2,
-      scrollX: false,
       on: {
         onAfterSelect: function (id) {
             const item = this.getItem(id);

@@ -30,19 +30,3 @@ export function getList() {
     ]
   };
 }
-
-webix.html.addStyle(`
-  .custom_label .webix_el_box {
-    color: green;
-    background-color: transparent;
-  }
-
-  .left_panel .webix_view{
-    background-color: rgb(238,238,238);
-  }
-
-  .custom_list .webix_list_item {
-    background-color: transparent;
-    border: none;
-  }
-`);
